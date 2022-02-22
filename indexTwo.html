@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleTwo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> testThree </title>
+</head>
+<body> 
+  
+        
+  <div id="back"></div>
+  <div id="wrapper">
+  <div class="star-1 stars"></div>
+  <div class="star-2 stars"></div>
+  <div class="star-3 stars"></div>
+  <div class="star-4 stars"></div>
+  <div class="star-5 stars"></div>
+</div>
+<div class="balls" id="ball1"></div>
+<div class="balls" id="ball2"></div>
+<div class="balls" id="ball3"></div>
+<div class="balls" id="ball4"></div>
+<div class="balls" id="red"></div>
+<div class="balls" id="blue"></div>
+<div class="balls" id="green"></div>
+<audio id="meowClip" controls>
+  <!-- <source src="audio/meow.mp3" type="audio/mpeg"> -->
+  <source src="https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" type="audio/ogg">
+</audio>
+<section id='section'>
+  <form id='form'>
+    <p>Sign up to receive Camper Cat's blog posts by email here!</p>
+
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+
+
+    <input type="submit" name="submit" value="Submit">
+  </form>
+
+<form>
+  <fieldset id='fieldset'>
+    <legend>Choose one of these three items:</legend>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">Choice One</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">Choice Two</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Choice Three</label>
+  </fieldset>
+  <input id='input' type="submit" name="submit" value="Submit">
+</form>
+<form>
+  <p>Tell us the best date for the competition</p>
+  <label for="pickdate">Preferred Date:</label>
+<input type="date" id="pickdate" name="date">
+
+  <input type="submit" name="submit" value="Submit">
+</form>
+<form action
+="/action_page.php">
+Name: <input type="text" name="name">
+<input type="submit">
+</form>
+<p>Standardize Times with the HTML5 datetime Attribute
+  Continuing with the date theme, HTML5 also introduced the time element along with a datetime attribute to standardize times. The time element is an inline element that can wrap a date or time on a page. A datetime attribute holds a valid format of that date. This is the value accessed by assistive devices. It helps avoid confusion by stating a standardized version of a time, even if it's informally or colloquially written in the text.The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text. The ratio is calculated by comparing the relative luminance values of two colors. This ranges from 1:1 for the same color, or no contrast, to 21:1 for white against black, the most substantial contrast. There are many contrast checking tools available online that calculate this ratio for you. <time datetime="2016-09-15">Thursday, September 15<sup>th</sup></time>. May the best ninja win!</p>
+  <table class="sr-only">
+    <caption>Accesibility and screen readers</caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th scope="col">Stealth &amp; Agility</th>
+        <th scope="col">Combat</th>
+        <th scope="col">Weapons</th>
+        <th scope="col">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Week One</th>
+        <td>3</td>
+        <td>5</td>
+        <td>2</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <th scope="row">Week Two</th>
+        <td>4</td>
+        <td>5</td>
+        <td>3</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <th scope="row">Week Three</th>
+        <td>4</td>
+        <td>6</td>
+        <td>3</td>
+        <td>13</td>
+      </tr>
+    </tbody>
+  </table>
+  <button accesskey="b">Important Button</button>
+  <p>HTML offers the accesskey attribute to specify a shortcut key to activate or bring focus to an element. Adding an accesskey attribute can make navigation more efficient for keyboard-only users.
+
+    HTML5 allows this attribute to be used on any element, but it's particularly useful when it's used with interactive ones. This includes links, buttons, and form controls.</p>
+</section>
+<p>Certain elements, such as links and form controls, automatically receive keyboard focus when a user tabs through a page. It's in the same order as the elements come in the HTML source markup. This same functionality can be given to other elements, such as div, span, and p, by placing a tabindex="0" attribute on them. Here's an example:
+
+</p>
+ <div tabindex="0">I need keyboard focus!</div>
+</body>
+
+</html>
